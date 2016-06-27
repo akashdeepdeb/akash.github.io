@@ -1,2 +1,2 @@
-# akashdeepdeb.github.io
+# akash.github.io
 My personal website
