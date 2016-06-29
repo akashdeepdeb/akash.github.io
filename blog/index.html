@@ -1,6 +1,6 @@
 ---
 layout: default
-title: my knowledge repository
+title: My Knowledge Repository
 ---
 <style>
 	.blog	{
@@ -10,6 +10,10 @@ title: my knowledge repository
 
 <div id = "content">
 	<h1>{{ page.title }}</h1>
+	<p>
+		Hi there! Here's a collection of intersting & informative, links and books, and my reviews on them. I plan it to be a lot like a blog; although, I don't think I will maintain it regularly.
+		I hope you find it useful. Reach out to me <a href = "/contact">here</a> with any questions or comments. 
+	</p>
 	<ul class="posts">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
