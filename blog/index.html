@@ -20,7 +20,7 @@ title: My Knowledge Repository
 	<h1>{{ page.title }}</h1>
 	<p>
 		Hi there! Here's a collection of intersting & informative, links and books, and my reviews on them. I plan it to be a lot like a blog; although, I don't think I will maintain it regularly.
-		I hope you find it useful. Reach out to me <a href = "/contact">here</a> with any questions or comments. 
+		I hope you find it useful. Reach out to me <a href = "/contact"><b>here</b></a> with any questions or comments. 
 	</p>
 	<br>
 	<hr>
@@ -30,4 +30,7 @@ title: My Knowledge Repository
 	    <li><b><span>{{ post.date | date_to_string }}</span></b> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+	<p>
+		<< <a href = "/blog"><b>back</b></a> | <a href = "next link"><b>next</b></a> >> 
+	</p>
 </div>
