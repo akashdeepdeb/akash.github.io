@@ -54,6 +54,10 @@ nav ul  {
   width: 100%;
 }
 
+ul  {
+    list-style-type: none;
+}
+
 .active {
     background-color: #4CAF50;
     color: #fff;
