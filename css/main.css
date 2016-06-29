@@ -4,11 +4,11 @@ body{margin-left: auto; margin-right: auto; line-height:1.6;font-size:18px;font-
     font-family: "optima";
 }
 
-#content a:hover{
+#container a:hover{
   color: orange;
 }
 
-#content  {
+#container  {
   max-width:670px;
   text-align: center;
   margin-left: auto;
