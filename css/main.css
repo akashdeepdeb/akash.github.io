@@ -4,16 +4,16 @@ body{margin-left: auto; margin-right: auto; line-height:1.6;font-size:18px;font-
     font-family: "optima";
 }
 
-#container a:hover{
+.container a:hover{
   color: orange;
 }
 
-#container  {
+.container  {
   max-width:670px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 nav  {
@@ -26,7 +26,7 @@ a { color: inherit;
 }
 
 li a{
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ddd;
   display: block;
   color: #444;
   text-align: center;
@@ -36,9 +36,6 @@ li a{
   display: inline;
 }
 
-li last-child  {
-  border-right: none;
-}
 
 li  {
   display: inline;
@@ -60,6 +57,7 @@ ul  {
 .active {
     background-color: #4CAF50;
     color: #fff;
+    border-right: none;
 }
 
 li a:hover{
