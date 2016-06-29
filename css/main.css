@@ -25,7 +25,7 @@ a { color: inherit;
     text-decoration: none;
 }
 
-li a{
+nav li a{
   border-right: 1px solid #ddd;
   display: block;
   color: #444;
@@ -37,7 +37,7 @@ li a{
 }
 
 
-li  {
+nav li  {
   display: inline;
   float: left;
 }
@@ -60,7 +60,7 @@ nav ul  {
     border-right: none;
 }
 
-li a:hover{
+nav li a:hover{
   background-color: #fff;
   color: #444;
 }
