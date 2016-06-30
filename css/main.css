@@ -4,14 +4,6 @@ body{margin-left: auto; margin-right: auto; line-height:1.6;font-size:18px;font-
     font-family: "Vollkorn";
 }
 
-h1  {
-    font-family: "Vollkorn";
-}
-
-h3  {
-    font-family: "Vollkorn";
-}
-
 .container a:hover{
   color: orange;
 }
