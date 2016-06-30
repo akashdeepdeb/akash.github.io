@@ -1,7 +1,7 @@
 body{margin-left: auto; margin-right: auto; line-height:1.6;font-size:18px;font-family: "Book Antiqua";color:#444;padding: 0}h1,h2,h3{line-height:1.2}
 
 #header {
-    font-family: "Vollkorn";
+    font-family: "Open Sans";
 }
 
 .container a:hover{
@@ -48,7 +48,7 @@ nav ul  {
   margin: 0;
   overflow: hidden;
   background-color: #eee;
-  font-family: "Vollkorn";
+ /* font-family: "Open Sans";*/
   position: fixed;
   top: 0;
   width: 100%;
