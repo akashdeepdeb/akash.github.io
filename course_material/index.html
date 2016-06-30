@@ -2,6 +2,12 @@
 layout: default
 title: course material
 ---
+<script type="text/javascript">
+ function showhide(div) {
+    var e = document.getElementById(div);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
 
 <style>
   .course {
@@ -28,7 +34,7 @@ title: course material
 </p>
 <hr>
 <br>
-<div id = "UIcourses">
+<div id = "uicourses">
 <h2>
   Courses at UIUC
 </h2>
@@ -36,7 +42,10 @@ title: course material
   Credits coming in
 </h3>
 <ul>
-  <li><a href = "/MATH231">AP Calculus BC</a></li>
+  <li><a href = "javascript:showhide('calcBC')">AP Calculus BC</a></li>
+  <div id = "calcBC" style = "display:none;">
+    <p>Hey there, how's it going?</p>
+  </div>
   <li><a href = "/PHYS212">AP Physics C: E&M</a></li>
   <li><a href = "/PHYS211">PHYS 211 Proficiency Test</a></li>
 </ul>
@@ -77,7 +86,8 @@ title: course material
 <p> This section will be updated after acing (read, 'passing') the Fall 2016 courses (haha!)</p>
 </div>
 <hr>
-<div id = "Coursera">
+<br>
+<div id = "coursera">
   <h2>Courses at Coursera</h2>
   <ul>
     <li><a href = "/dsalg">Data Structures and Algorithms Specialization (UCSD & HSE)</a></li>
@@ -86,6 +96,7 @@ title: course material
   </ul>
 </div>
 <hr>
+<br>
 <div id = "edX">
   <h2>Courses at edX</h2>
   <ul>
