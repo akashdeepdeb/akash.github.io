@@ -48,7 +48,7 @@ nav ul  {
   margin: 0;
   overflow: hidden;
   background-color: #eee;
- /* font-family: "Open Sans";*/
+  font-family: "Open Sans";
   position: fixed;
   top: 0;
   width: 100%;
