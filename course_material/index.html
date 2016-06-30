@@ -1,6 +1,6 @@
 ---
 layout: default
-title: course material
+title: Course Material
 ---
 <script type="text/javascript">
  function showhide(div) {
@@ -19,6 +19,10 @@ title: course material
   
   h1, h2, h3  {
     font-family: Open Sans;
+  }
+  
+  .boxed {
+   borber: 1px solid #ddd;
   }
 </style>
 
@@ -45,10 +49,8 @@ title: course material
 </h3>
 <ul>
   <li><a href = "javascript:showhide('calcBC')">AP Calculus BC</a></li>
-  <div id = "calcBC" style = "display:none;">
-    <hr width = "30%">
+  <div id = "calcBC" class = "boxed" style = "display:none;">
     <p>Hey there, how's it going?</p>
-    <hr>
   </div>
   <li><a href = "/PHYS212">AP Physics C: E&M</a></li>
   <li><a href = "/PHYS211">PHYS 211 Proficiency Test</a></li>
