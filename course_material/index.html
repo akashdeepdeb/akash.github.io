@@ -1,385 +1,168 @@
 ---
 layout: default
-
 title: Course Material
-
 ---
-
 <script type="text/javascript">
-
-function showhide(div) {
-
+ function showhide(div) {
     var e = document.getElementById(div);
-
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-
-}
-
+ }
 </script>
 
-
-
-
-
-
 <style>
-
   .course {
-
     background-color: white;
-
   }
-
   figure {
-
     font-size: 10;
-
   }
-
-
+  
   h1, h2, h3  {
-
     font-family: Open Sans;
-
   }
-
 /*
-
 <br>
-
 <hr width = "40%">
-
 <hr width = "40%">
-
 <br>
-
 */
-
 </style>
 
-
-
-
-
-
 <h1> Course Material</h1>
-
 <figure>
-
   <img src="dependencies.png" alt = "Dependencies" style="width:580px;height:170px;">
-
   <figcaption>xkcd Dependencies (<a href = "http://xkcd.com/754/">http://xkcd.com/754/</a>)</figcaption>
-
 </figure>
-
 <hr>
-
 <p>
-
-  I decided to make this section for one reason - to share the resources I used for learning subjects in Math, CS and ECE. These are all the important courses I have taken at UIUC and elsewhere. You'll find materials and resources that should help you for them.
-
-  I have not provided the links for some textbooks and sources to avoid copyright issues. However, if you have any questions about where to find/get the textbooks, feel free to contact me <a href = "/contact"><b>here</b></a>.
-
+  I decided to make this section for one reason - to share the resources I used for learning subjects in Math, CS and ECE. These are all the important courses I have taken at UIUC and elsewhere. You'll find materials and resources that should help you for them. 
+  I have not provided the links for some textbooks and sources to avoid copyright issues. However, if you have any questions about where to find/get the textbooks, feel free to contact me <a href = "/contact"><b>here</b></a>. 
 </p>
-
 <p><em>Click on the courses to show info.</em></p>
-
 <br>
-
 <hr>
-
-
-
-
-
 
 <div id = "uicourses">
-
 <h2>
-
   Courses at UIUC
-
 </h2>
-
 <h3>
-
   AP and profciency credit
-
 </h3>
-<p>
-I started my freshman year with 19 credits. Looking back, I did well to take the 3 AP Exams - Calc BC, Physics C: E&M, Chemistry, and the PHYS 211 Proficiency test.
-Since I wanted to be a CompE, this allowed me to get out of the following courses: MATH 221, 231, PHYS 211, 212, CHEM 102, 103, 104; so, I didn’t <em>have</em> to take AP Computer Science A since CS 125 wasn’t required for my major.
-</p>
-
 <ul>
-
-
-
-<li>
-
+ 
+ <li>
   <a href = "javascript:showhide('calcBC')">AP Calculus BC</a>
-
   <div id = "calcBC" style = "text-align: left; display:none;">
-
-  <br>
-
-  <hr width = "40%">
-
-   <p><b>Review</b><br> When I was in high-school, I didn't actually take this course since I was in a different curriculum. However, I self-studied the course from Coursera and the Barron's books. If you're reading this and are in high-school, I highly recommend taking it, as getting a '5' is not very hard and
-
-  it allows you to get placed out of the strict Calc I & II requirements and jump directly to Calc III (Calc I, II can easily be self-studied, so you don't have to spend 1 or 2 semester(s) with them.)</p>
-
-  <p><b>References</b> <br>
-
-  Coursera: <a href = "https://www.coursera.org/learn/calculus1">Calculus I by OSU (course)</a><br>
-
-  Coursera: <a href = "https://www.coursera.org/learn/advanced-calculus">Calculus II by OSU (course)</a><br>
-
-  OSU: <a href = "https://mooculus.osu.edu/textbook/mooculus.pdf">MOOCulus I (pdf)</a><br>
-
-  OSU: <a href = "https://ia800502.us.archive.org/35/items/mooculus-sequences-book/sequences-and-series.pdf">MOOCulus II (pdf)</a><br>
-
-  Youtube: <a href = "https://www.youtube.com/watch?v=Ct_IMcvNyIM">My video on how to get a 5 in the test (video)</a><br>
-
-  </p>
-
-  <hr width = "40%">
-
-  <br>
-
-  </div>
-
-
-</li>
-
-  <li><a href = "javascript:showhide('physEM')">AP Physics C: E&M</a>
-
-  <div id = "physEM" style = "text-align: left; display: none;">
-
-  <br>
-
-  <hr width = "40%">
-
-   <p><b>Review</b><br>
-
-  As with Calc BC, I hadn't taken this course formally (just the test.) I mostly prepared for it from the Barron's book and took time off from school to
-
-  get help from professors. Other than that I watched MIT OCW's lectures online and Rice University's online edX course - both of which were extremely helpful. Doing 5-7 practice tests (basically, till your concepts are clear) is probably the best way to get a 5 in the test.
-
-  </p>
-
-  <p><b>References</b><br>
-
-  MIT: <a href = "https://www.youtube.com/watch?v=Lx64cq0HeXY">Walter Lewin's 8.02 videos (video)</a><br>
-
-  edX: <a href = "https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x">Rice University: E&M - part 1 (course)</a><br>
-
-  edX: <a href = "https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x">Rice University: E&M - part 2 (course)</a><br>
-
-  </p>
-
-  <hr width = "40%">
-
-  <br>
-
-  </div>
-
-</li>
-
-
-<li><a href = "javascript:showhide('physprof')">PHYS 211 Proficiency Test</a>
-
-  <div id = "physprof" style = "text-align: left; display: none;">
-
-  <br>
-
-  <hr width = "40%">
-
-   <p><b>Review</b><br>
-
-  In my Junior year of high-school, I had formally taken MIT's 8.01 Classical Mechanics on edX, taught by <em>the</em> great physics professor, Walter Lewin. It is perhaps the best course I have ever taken and 8.01's course quality is still unparalleled. Anyways, with 2 days left to prepare, I re-viewed all 36 hours of Classical Mechanics videos on YouTube and somehow passed the proficiency test.
-
-  A stroke of luck you say? Maybe. Maybe not. When I took the test, I knew I had given many right answers because I got those answers mostly on first go. All in all, the test wasn't very hard. So, to prepare for it, you can watch Walter Lewin's lecture videos on YouTube.
-
-  </p>
-
-  <p><b>References</b><br>
-
-  MIT: <a href = "https://www.youtube.com/watch?v=Uo28HOrhipc&list=PLUdYlQf0_sSsb2tNcA3gtgOt8LGH6tJbr">Physics 8.01 - Classical Mechanics (video)</a><br>
-
-  UIUC: <a href = "https://courses.physics.illinois.edu/phys211/fa2015/">PHYS 211 UIUC (course)</a><br>
-
-  exscape: <a href = "/course_material/exscape.pdf">Notes by edX user exscape - Thomas Backman (pdf)</a><br>
-
-  </p>
-
-  <hr width = "40%">
-
-  <br>
-
-  </div>
-
-</li>
-
-
-
-</ul>
-
-<h3>
-
-  Fall 2015
-
-</h3>
-<p>
-These and some additional courses amounted to a 16 credit hours first semester. Honestly, this semester was a pain in the neck. I can think of a few reasons: Firstly, this was my first semester in US, this took some time to get adjusted to. I was stumped by the amount of homework we had to submit online and how strict the university was with homework deadlines. I recall missing many homework deadlines for PHYS 214 - something I corrected while taking PHYS 213 (which understandably resulted in a better grade in the course.) Secondly, I hadn’t done any past papers - back in high school this wasn’t very important. Although, in University, one of the best ways to prepare for any exam is to solve past exams.
-</p>
-
-<ul>
-
-  <li><a href = “javascript:showhide(‘ece110’)">ECE 110: Intro. to Electronics</a> (w/ David Varodayan)
-   <div id = “ece110” style = “text-align: left; display: none;”>
-    <br>
-<hr width = “40%”>
-<p><b>Review</b><br>
-ECE 110 is a good intro. to electrical engineering. However, I still think it is too easy - ECE 110 an 120 should be taken together, if possible, since, this allows one to take ECE 210, 220, 313 in the second semester if need be. The homeworks/exams are trivial if one has understood the concepts. If you are looking to get an A+ in this class, attend all classes, as each class has iClicker sessions.  Also, do the past papers - during Fall 2015, many questions were the same.
-</p>
-<p><b>References</b><br>
-CheatSheet1: <a href = “”>My cheatsheet for midterm 1 (pdf)</a><br>
-CheatSheet2: <a href = “”>My cheatsheet for midterm 2 (pdf)</a><br>
-CheatSheet3: <a href = “”>My cheatsheet for the final exam (pdf)</a><br>
-</p>
-<hr width = “40%”>
-<br>
-   </div>
-  </li>
-
-  <li><a href = “javascript:showhide(‘math241’)">MATH 241: Calculus III</a> (w/ Florin Boca)
-   <div id = “math241” style = “text-align: left; display: none;”>
    <br>
-   <hr width = “40%”>
-   <p><b>Review</b><br>
-    This is a good starting math course. Homeworks weren’t too bad. When I didn’t get some concepts, I just looked up Paul’s Online Math Notes and went to Office Hours. CARE was quite useful sometimes. I am going to tutor at CARE for Fall 2016, so you should come ;)
+   <hr width = "40%">
+   <p><b>Course Review</b><br> When I was in high-school, I didn't actually take this course since I was in a different curriculum. However, I self-studied the course from Coursera and the Barron's books. If you're reading this and are in high-school, I highly recommend taking it, as getting a '5' is not very hard and
+   it allows you to get placed out of the strict Calc I & II requirements and jump directly to Calc III (Calc I, II can easily be self-studied, so you don't have to spend 1 or 2 semester(s) with them.)</p>
+   <p><b>References</b> <br> 
+   Coursera: <a href = "https://www.coursera.org/learn/calculus1">Calculus I by OSU (course)</a><br>
+   Coursera: <a href = "https://www.coursera.org/learn/advanced-calculus">Calculus II by OSU (course)</a><br>
+   OSU: <a href = "https://mooculus.osu.edu/textbook/mooculus.pdf">MOOCulus I (pdf)</a><br>
+   OSU: <a href = "https://ia800502.us.archive.org/35/items/mooculus-sequences-book/sequences-and-series.pdf">MOOCulus II (pdf)</a><br>
+   Youtube: <a href = "https://www.youtube.com/watch?v=Ct_IMcvNyIM">My video on how to get a 5 in the test (video)</a><br>
    </p>
-   <hr width = “40%”>
+   <hr width = "40%">
    <br>
-   </div>
-
-  </li>
-
+  </div>
+  
+ </li>
+  <li><a href = "javascript:showhide('physEM')">AP Physics C: E&M</a>
+  <div id = "physEM" style = "text-align: left; display: none;">
+   <br>
+   <hr width = "40%">
+   <p><b>Course Review</b><br>
+   As with Calc BC, I hadn't taken this course formally (just the test.) I mostly prepared for it from the Barron's book and took time off from school to 
+   get help from professors. Other than that I watched MIT OCW's lectures online and Rice University's online edX course - both of which were extremely helpful. Doing 5-7 practice tests (basically, till your concepts are clear) is probably the best way to get a 5 in the test. 
+   </p>
+   <p><b>References</b><br>
+   MIT: <a href = "https://www.youtube.com/watch?v=Lx64cq0HeXY">Walter Lewin's 8.02 videos (video)</a><br>
+   edX: <a href = "https://www.edx.org/course/electricity-magnetism-part-1-ricex-phys102-1x">Rice University: E&M - part 1 (course)</a><br>
+   edX: <a href = "https://www.edx.org/course/electricity-magnetism-part-2-ricex-phys102-2x">Rice University: E&M - part 2 (course)</a><br>
+   </p>
+   <hr width = "40%">
+   <br>
+  </div>
+ </li>
+  
+ <li><a href = "javascript:showhide('physprof')">PHYS 211 Proficiency Test</a>
+  <div id = "physprof" style = "text-align: left; display: none;">
+   <br>
+   <hr width = "40%">
+   <p><b>Course Review</b><br>
+   In my Junior year of high-school, I had formally taken MIT's 8.01 Classical Mechanics on edX, taught by <em>the</em> great physics professor, Walter Lewin. It is perhaps the best course I have ever taken and 8.01's course quality is still unparalleled. Anyways, with 2 days left to prepare, I re-viewed all 36 hours of Classical Mechanics videos on YouTube and somehow passed the proficiency test. 
+   A stroke of luck you say? Maybe. Maybe not. When I took the test, I knew I had given many right answers because I got those answers mostly on first go. All in all, the test wasn't very hard. So, to prepare for it, you can watch Walter Lewin's lecture videos on YouTube. 
+   </p>
+   <p><b>References</b><br>
+   MIT: <a href = "https://www.youtube.com/watch?v=Uo28HOrhipc&list=PLUdYlQf0_sSsb2tNcA3gtgOt8LGH6tJbr">Physics 8.01 - Classical Mechanics (video)</a><br>
+   UIUC: <a href = "https://courses.physics.illinois.edu/phys211/fa2015/">PHYS 211 UIUC (course)</a><br>
+   exscape: <a href = "/course_material/exscape.pdf">Notes by edX user exscape - Thomas Backman (pdf)</a><br>
+   </p>
+   <hr width = "40%">
+   <br>
+  </div>
+ </li>
+ 
+</ul>
+<h3>
+  Fall 2015
+</h3>
+<ul>
+  <li><a href = "/ECE110">ECE 110: Intro. to Electronics</a> (w/ David Varodayan)</li>
+  <li><a href = "/MATH241">MATH 241: Calculus III</a> (w/ Florin Boca)</li>
   <li><a href = "/PHYS214">PHYS 214: Quantum Physics</a> (w/ Raffi Budakian)</li>
-
   <li><a href = "/PHYS213">PHYS 213: Thermal Physics</a> (w/ Raffi Budakian)</li>
-
 </ul>
-
 <h3>
-
   Spring 2016
-
 </h3>
-
 <ul>
-
   <li><a href = "/ECE120">ECE 120: Introduction to Computing</a> (w/ David Varodayan)</li>
-
   <li><a href = "/ECE210">ECE 210: Analog Signal Processing</a> (w/ James G. Eden</li>
-
   <li><a href = "/ECE313">ECE 313: Probability with Engineering Applications</a> (w/ Naresh Shanbhag)</li>
-
   <li><a href = "/MATH286">MATH 286: Intro. to Differential Equations Plus</a> (w/ Pierre Albin)</li>
-
 </ul>
-
 <h3>
-
   Fall 2016
-
 </h3>
-
 <ul>
-
   <li><a href = "/ECE486">ECE 486: Control Systems</a></li>
-
   <li><a href = "/ECE374">ECE 374: Algorithms and Models of Copmutation</a></li>
-
   <li><a href = "/ECE220">ECE 220: Copmuter Systems Programming</a></li>
-
   <li><a href = "/MATH489">MATH 489: Dynamics and Differential Equations</a></li>
-
 </ul>
-
 <h3>
-
   Spring 2017
-
 </h3>
-
 <p> This section will be updated after acing (read, 'passing') the Fall 2016 courses (haha!)</p>
-
 </div>
 
-
-
-
-
-
 <br>
-
 <hr>
-
-
-
-
-
 
 <div id = "coursera">
-
   <h2>Courses at Coursera</h2>
-
   <ul>
-
     <li><a href = "/dsalg">Data Structures and Algorithms Specialization (UCSD & HSE)</a></li>
-
     <li><a href = "/intromath">Intro. to Mathematical Thinking (Stanford)</a></li>
-
     <li><a href = "/ml">Machine Learning (Stanford)</a></li>
-
   </ul>
-
 </div>
 
-
-
-
-
-
 <br>
-
 <hr>
 
-
-
-
-
-
 <div id = "edX">
-
   <h2>Courses at edX</h2>
-
   <ul>
-
     <li><a href = "oop">Object Oriented Programming (IIT Bombay)</a></li>
-
     <li><a href = "dsfound">Foundations of Data Structures (IIT Bombay)</a></li>
-
     <li><a href = "cppintro">Introduction to C++ (Microsoft)</a></li>
-
     <li><a href = "pyintro">Introduction to CS and Programming using Python (MIT)</a></li>
-
     <li><a href = "thermo">Thermodynamics (IIT Bombay)</a></li>
-
     <li><a href = "mech">Classical Mechanics (MIT)</a></li>
-
   </ul>
-
 </div>
