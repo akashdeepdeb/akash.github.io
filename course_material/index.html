@@ -7,6 +7,10 @@ title: Course Material
   var e = document.getElementById(div);
   e.style.display = (e.style.display == 'block') ? 'none' : 'block';
  }
+ 
+ function onclick() {
+  alert("Link not provided. You can request the book (see message above.)")
+ }
 </script>
 
 <style>
@@ -137,6 +141,9 @@ These and some additional courses amounted to a 16 credit hours first semester. 
     CheatSheet1: <a href = "">My cheatsheet for midterm 1 (pdf)</a><br>
     CheatSheet2: <a href = "">My cheatsheet for midterm 2 (pdf)</a><br>
     CheatSheet3: <a href = "">My cheatsheet for the final exam (pdf)</a><br>
+    ArduinoBook: <a href = "">Arduino Robotics Book (pdf)</a><br>
+    MyLabProposal: <a href = "">ECE 110 Lab Proposal (pdf)</a><br>
+    MyLabReport: <a href = "">ECE 110 Final Report (pdf)</a><br>
     </p>
     <hr width = "40%">
     <br>
@@ -152,20 +159,51 @@ These and some additional courses amounted to a 16 credit hours first semester. 
     When I didn’t get some concepts, I just looked up Paul’s Online Math Notes and went to Office Hours. 
     CARE was quite useful sometimes. I am going to tutor at CARE for Fall 2016, so you should come ;)
     </p>
+    <p><b>References</b><br>
+     Lamar: <a href = "">Paul's Online Math Notes (web)</a><br>
+     Strang, G: <a href = "">Calculus by Gilbert Strang, MIT</a><br>
+    </p>
     <hr width = "40%">
     <br>
   </div>
 </li>
 
-  <li><a href = "/PHYS214">PHYS 214: Quantum Physics</a> (w/ Raffi Budakian)</li>
-  <li><a href = "/PHYS213">PHYS 213: Thermal Physics</a> (w/ Raffi Budakian)</li>
+  <li><a href = "javascript:showhide('phys214')">PHYS 214: Quantum Physics</a> (w/ Raffi Budakian)
+  <div id = "phys214" style = "text-align: left; display: none;">
+   <br>
+   <hr width = "40%">
+   <p><b>Review</b><br>
+    This was my first lecture at UIUC. I liked it. It felt a lot like the 8.01x course I had taken online 2 (now, 3) years ago.
+    The course is 2 credit hours for 7 actual hours/wk. I didn't use any additional references for this; tips: solve many past papers, attend all discussions and review sessions.
+   </p>
+   <p><b>References</b><br>
+    None
+   </p>
+   <hr width = "40%">
+   <br>
+  </div>
+  </li>
+  <li><a href = "javascript:showhide('phys213')">PHYS 213: Thermal Physics</a> (w/ Raffi Budakian)
+  <div id = "phys213" style = "text-align: left; display: none;">
+   <br>
+   <hr width = "40%">
+   <p><b>Review</b><br>
+   This course was almost similar to PHYS 214. Here, however, I learnt from the 214 mistakes and, hence, learnt more from the course. Follow the same tips above.
+   </p>
+   <p><b>References</b><br>
+    None
+   </p>
+   <hr width = "40%">
+   <br>
+  </div>
+  </li>
 </ul>
 <h3>
   Spring 2016
 </h3>
 <ul>
   <li><a href = "/ECE120">ECE 120: Introduction to Computing</a> (w/ David Varodayan)</li>
-  <li><a href = "/ECE210">ECE 210: Analog Signal Processing</a> (w/ James G. Eden</li>
+  <li><a href = "/ECE210">ECE 210: Analog Signal Processing</a> (w/ James G. Eden)</li>
   <li><a href = "/ECE313">ECE 313: Probability with Engineering Applications</a> (w/ Naresh Shanbhag)</li>
   <li><a href = "/MATH286">MATH 286: Intro. to Differential Equations Plus</a> (w/ Pierre Albin)</li>
 </ul>
